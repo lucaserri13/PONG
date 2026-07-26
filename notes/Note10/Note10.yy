@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Note10",
+  "name":"Note10",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Sprites/Game.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
