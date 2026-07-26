@@ -54,7 +54,6 @@
   "name":"PONG",
   "resources":[
     {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
-    {"id":{"name":"Note10","path":"notes/Note10/Note10.yy",},},
     {"id":{"name":"txt_atividade_01","path":"notes/txt_atividade_01/txt_atividade_01.yy",},},
     {"id":{"name":"txt_atividades_02","path":"notes/txt_atividades_02/txt_atividades_02.yy",},},
     {"id":{"name":"txt_atividades_03","path":"notes/txt_atividades_03/txt_atividades_03.yy",},},
