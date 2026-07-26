@@ -85,6 +85,7 @@
     {"id":{"name":"spr_botao_02","path":"sprites/spr_botao_02/spr_botao_02.yy",},},
     {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
     {"id":{"name":"spr_colisao","path":"sprites/spr_colisao/spr_colisao.yy",},},
+    {"id":{"name":"spr_pixel","path":"sprites/spr_pixel/spr_pixel.yy",},},
     {"id":{"name":"spr_raquete","path":"sprites/spr_raquete/spr_raquete.yy",},},
     {"id":{"name":"spr_rosto_olho","path":"sprites/spr_rosto_olho/spr_rosto_olho.yy",},},
     {"id":{"name":"spr_rosto","path":"sprites/spr_rosto/spr_rosto.yy",},},
