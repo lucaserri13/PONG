@@ -1,0 +1,88 @@
+41. Atividade - Salvando a Velocidade da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+42. Atividade - Fazendo a IA Seguir a Bola B.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+43. Atividade - Limitando a Velocidade da IA.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+44. Atividade - Limitando a Velocidade da IA Parte 2.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+45. Referência Direta.
+
+Há dois tipos de referências diretas, a de instância e a de objeto.
+
+Exemplo de Instância: vspeed = inst_E8B0414_1.vspeed
+
+Vantagens de referência direta: 
+- Permite referências para casos pequenos onde uma variável global
+não é totalmente necessária.
+
+- Você não precisaria fazer várias variáveis globais
+caso queira referenciar várias variáveis de outro objeto
+
+
+Desvantagens de referência direta: 
+
+- Caso a instância seja outra, referência direta por instância 
+pode causar problemas não intencionados
+
+- Caso não haja uma instância do objeto, ler uma referência direta causa erro,
+tendo que fazer (if instance_exists()) para prevenir esse problema.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+46. Iniciando o Sistema de Gols.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+47. Atividade - Criando o Gol.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+48. Atividade - Resetando a Posição da Bola.
+
+A variável in-built "xstart" salva a posição inicial do X de uma instância,
+enquanto a variável "ystart" salva a posição inicial do Y dessa instância.
+ 
+("Posição inicial" é a posição na qual a instância é criada.)
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+49. Atividade - Resetando a Velocidade e Dando um Delay para a Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+50. Pensando na Lógica do Gol.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS ATIVIDADES, CONTINUAÇÃO NA PRÓXIMA NOTA (txt_atividades_06).
+
+

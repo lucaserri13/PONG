@@ -1,0 +1,81 @@
+51. Atividade - Criando a Lógica para Fazer Gol.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+52. Atividade - Dando Pontos para o Jogador que fez Gol.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+53. Corrigindo a Direção da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+54. Atividade - Exibindo os Pontos.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+55. Atividade - Finalizando a Partida.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+56. Reiniciando o Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+57. Planejando a Room Inicial.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+58. Atividade - Montando a Room Inicial.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+59. Atividade - Definindo a Tela Inicial do Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+60. Atividade - Criando o Botão de Jogar.
+
+É possível exportar sprites indo no botão "Image"
+no editor de sprites e fazendo "export to png".
+
+Sprites exportadas para PNG terão cada frame um do lado do outro em uma linha horizontal.
+
+O arquivo também terá um sufixo especial baseado em quantos frames o sprite tem.
+("_stripX", sendo X o número correspondente a quantidade de frames)
+
+Exemplo: 
+
+- Para a sprite de uma bola exportada que tem 5 frames: "spr_bola_strip5"
+
+Ao importar uma imagem com esse sufixo o GameMaker
+irá automaticamente separar a imagem em frames.
+
+(ENTRETANTO STRIP IMAGES AINDA PRECISAM SER IMPORTADAS DE FORMA ESPECIAL,
+ATRAVÉS DO "Import Strip Image" NO "Image" DO EDITOR DE SPRITES.)
+
+Logo forçar o sufixo em certas imagens pode nem sempre dar certo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS ATIVIDADES, CONTINUAÇÃO NA PRÓXIMA NOTA (txt_atividades_07).

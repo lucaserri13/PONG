@@ -1,0 +1,301 @@
+Link do Pong: 
+- https://jackmalta.itch.io/pong-noneclass
+
+​Link do Documento "Análise de Game Design: NoNe Pong":
+- https://docs.google.com/document/d/16S34kQfKNY1Uy382M1UdLRHNOjpGgYEq66__4i_45Q0/edit?tab=t.0#heading=h.uzy3ajm0knbu
+
+Apresentação de Slide GDD do Pong:
+- https://docs.google.com/presentation/d/1IAZSg2ZLafp6PeBxBLnrzOAfCyrdU0bxhicY7PYqs3Y/edit?slide=id.p#slide=id.p
+
+
+01. Apresentação da Seção.
+
+Primeira Atividade: 
+- Jogar ao menos 2 partidas de Pong.
+
+O link do jogo está na descrição da aula.
+
+Os assets que serão utilizados estão nos Materiais, ao lado da Descrição.
+
+O professor recomenda muitas vezes tentar fazer certas coisas antes dele ensinar,
+para incentivar iniciativa e evitar copiar dele sem aprender.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+02. Como analisar um Jogo.
+
+Segunda Atividade: 
+- Jogar ao menos 2 partidas de Pong.
+(Só que dessa vez vocês vão analisar o jogo,
+como ver quais são os componentes e refletir como é feito)
+
+Exemplo: 
+- Que elementos compõem esse jogo?
+
+
+Não é para fazer a atividade ainda porque ela será separada em duas categorias:
+
+- Primeira Categoria: Telas, elementos e fluxo do jogo
+(será explicado mais detalhadamente na próxima aula)
+
+- Segunda Categoria: Objetivo, obstáculos e regras, com o bônus de Gameplay
+(experiência do jogo)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+03. Telas, Elementos e Fluxo do Jogo.
+
+Essa primeira categoria é para eu pensar que elementos existem no meu jogo.
+
+
+(Primeira Pergunta: Quantas telas existem no jogo?)
+
+O que é uma tela? 
+No Game Maker é uma room mas em contexto de jogo uma tela é um espaço onde alguma coisa acontece.
+
+Exemplo: 
+- Em Super Mario 3 tem uma tela do menu, depois tem a tela de seleção de levels, depois tem outra tela onde você joga o jogo.
+
+
+(Segunda Pergunta: O que são essas telas?)
+
+Qual é a função dela? 
+Tem a tela inicial, tem uma tela game over, tem uma tela de vitória, tem tela de seleção de personagem, etc...
+Que telas o jogo tem?
+
+
+(Terceira Pergunta: Que elementos compõem essas telas?)
+
+Quais são os diversos elementos presentes na tela? 
+O Personagem, os blocos, os inimigos, os powerups, os checkpoints, etc... 
+Vários elementos compõem a tela.
+
+(PS: Para analisar um jogo o professor recomenda separar o jogo em telas e descrever o que tem em cada tela)
+
+
+(Quarta Pergunta: Qual o fluxo do jogo?)
+
+Como assim fluxo?
+O fluxo do jogo consiste do jogo possuir um começo, meio e fim. 
+Também como que as telas que do jogo progridem entre si e suas condições.
+
+Exemplo:
+- Tela Inicial -> Tela do Mapa (seleção de level) -> Tela do Level -> Tela do Mapa (Se ganhei o Level) -> Tela do Level -> Tela de game over -> Tela inicial -> Tela do Mapa...
+(Um loop do jogo foi feito.)
+
+A condição se aplicaria caso eu não morrese, onde ao invés da tela game over eu teria a tela vitória e depois seria mandado de volta pra tela inicial.
+
+(PS: Antes de fazer qualquer jogo você precisa saber como que o seu jogo vai ser, qual é a estrutura dele, e se você consegue fazê-lo em primeiro lugar.)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+04. Objetivo, Obstaculos e Regras.
+
+(Primeira Pergunta dessa categoria: Qual o objetivo do jogo?)
+
+Todo jogo em sua maioria tem um objetivo, 
+algo você tenha que fazer, nem que seja apenas se divertir.
+Que objetivos você tem no jogo?
+
+Exemplo: 
+- No Mario, cada fase tem seu próprio objetivo, com um objetivo geral ser chegar ao fim do level e o objetivo principal ser resgatar a Peach.
+
+
+(Segunda Pergunta: Que obstáculos estão impedindo o jogador de realizar seu objetivo?)
+
+Em geral jogos vão ter obstáculos para te impedir de realizar seu objetivo, 
+tipo inimigos e até o próprio level.
+Quais são os obstáculos presentes no jogo?
+
+(PS: É possível até levar em consideração outra pergunta, os obstáculos são muito fáceis ou muito difíceis? Eles estão balanceados com o progresso do jogo?)
+
+
+(Terceira Pergunta: Que regras estão definindo como o jogo será jogado?)
+
+As regras de um jogo podem mudar consideravelmente a forma de como o jogador irá jogá-lo,
+indo de mudanças pequenas para grandes, cada uma mudando como e o que o jogador tem que fazer para conseguir ganhar.
+As regras deixam o jogo divertido ou entediante?
+
+Exemplo: 
+- Os obstáculos de um jogo podem até ser os mesmos mas as regras de como eles funcionam podem variar de formas que mudam bastante seu propósito.
+- Tipo a diferença entre um bloco de areia com um bloco sólido (parede) e um bloco de lava, mesmo se você colocá-los no mesmo lugar, cada um faz algo diferente.
+- E por cada um fazer algo diferente, o jogador reage de formas diferentes para cada um deles.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+05. Eu Sou um Desenvolvedor de Jogos!
+
+Atividade Extra (SUPER DUPER IMPORTANTE):
+- Comente nessa aula "Eu sou um desenvolvedor de jogos!"
+
+
+Pergunta: Como que meu jogo é jogado?
+
+Gameplay (experiência do jogo) é o jogar do jogo, 
+como a pessoa vai experimentar seu jogo. 
+Como que o jogador vai experienciar meu jogo?
+
+A gameplay mistura tudo que foi mencionado anteriormente, 
+um conjunto de tudo que foi considerado nas categorias anteriores em uma só experiência.
+
+
+(AGORA ASSIM JOGUE AS DUAS PARTIDAS DO PONG ANALISANDO-O COM TUDO QUE VIMOS AGORA)
+
+(PS: Lembre-se da importância das categorias sob gameplay, o gameplay é resultado de todas as categorias que levaram até o gameplay. 
+Além disso, normalmente é mais fácil fazer as coisas de pouco em pouco tipo um quebra cabeça ao invés de querer fazer tudo de uma vez)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+06. Game Design do Pong.
+
+​Link do documento "Análise de Game Design: NoNe Pong":
+- https://docs.google.com/document/d/16S34kQfKNY1Uy382M1UdLRHNOjpGgYEq66__4i_45Q0/edit?tab=t.0#heading=h.uzy3ajm0knbu
+
+Apresentação de Slide GDD do Pong:
+- https://docs.google.com/presentation/d/1IAZSg2ZLafp6PeBxBLnrzOAfCyrdU0bxhicY7PYqs3Y/edit?slide=id.p#slide=id.p
+
+(ATIVIDADE)
+
+Telas:
+- Tela Principal
+- Tela da Partida
+
+Elementos:
+01. Tela Principal:
+- Raquete esquerda (do primeiro jogador) 
+- Raquete direita (do segundo jogador / da IA adversária)
+- Botão "Jogar" - Highlight Forte ao passar o Mouse por cima
+- Botão "1 Jogador" (podendo mudar para "2 Jogadores" ao clicar no botão) - Highlight Fraco ao passar o Mouse por cima
+- Background
+- Rosto (com olhos direcionados ao canto esquerdo da tela)
+
+02. Tela da Partida:
+- Raquetes
+- Bola
+- Background
+- Rosto (com olhos "centralizados")
+- Pontuação para o lado esquerdo (Jogador 1) e para o lado direito (Jogador 2 / IA)
+
+Fluxo do Jogo:
+01. Na tela principal o jogador escolhe entre "1 Jogador" ou "2 Jogadores" e clica em "Jogar" para iniciar uma partida
+02. Ao iniciar a partida a tela principal muda para a tela de partida e o jogo começa
+03. A partida continua até um dos jogadores alcançarem 2 pontos, onde o jogo finaliza e a tela de partida muda para a tela principal 
+
+
+Atividade de Análise feita nos comentários da vídeo-aula.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+07. Game Design do Pong Parte 2.
+
+O que é "Metáfora"?
+- Metáfora é como você vai representar os elemntos do seu jogo
+e que informação, que ideia isso vai passar pro jogador.
+
+(ATIVIDADE)
+
+Objetivo:
+- Proteger seu campo para não levar gol
+- Tentar fazer gol no campo adversário
+- Fazer 2 gols para ganhar
+
+Obstáculos:
+- O oponente (Jogador 2/ IA)
+- A bola aumentar sua velocidade ao quicar em uma superfície (Ajuda você a fazer gol no adversário tanto quanto dificulta para você defender seu próprio gol)
+- A velocidade fixa da raquete em comparação com a falta de controle da bola (a bola consegue se mover mais rápido que a raquete e de formas difíceis de acompanhar, necessitando prever o trajeto da bola de forma antecipada para posicionar a raquete no local ideal a tempo)
+
+Regras:
+- O jogador que fizer 2 pontos primeiro ganha, permitindo até três rodadas ao máximo se um empate ocorrer (1/1) e mudando a tela de partida para a tela principal assim que os "2 pontos" são feitos
+- As raquetes só podem se mover verticalmente
+- A aceleração das raquetes para jogadores normais é instantânea exceto para a IA, onde sua aceleração é construída até chegar em sua velocidade máxima ou ao chegar na velocidade necessária para acompanhar a bola 
+- A velocidade da IA vai diminuindo em porções durante sua transição entre subir para descer e descer para subir, tendo sua velocidade chegar a 0 até começar a construir aceleração da direção oposta a que estava indo anteriormente
+- A IA também facilita para o jogador fazer gol e começa a ir na direção oposta (ou ficar parada em certos casos) quando a bola está prestes a fazer gol (suponho que isso ocorra quando a bola tiver seu eixo ultrapassando a metade esquerda da raquete e alcançando a metade direita)
+- A Bola não sai para fora do "teto" e do "chão" e ao sair para fora da tela tanto no lado esquerdo como no lado direito, uma pontuação é dada para quem fez o gol e a bola volta para o centro da tela, esperando um tempo antes de começar a se mover diagonalmente (indo para cima ou para baixo) para um dos lados
+- O Trajeto da bola pode mudar ao acertá-la de formas diferentes com a raquete (como com a quina por exemplo), entretanto acertar a bola com a parte de cima ou de baixo da raquete após a bola ultrapassar metade dessa raquete faz com que a bola continue indo em direção ao gol da raquete, apenas invertendo sua velocidade vertical
+
+
+Atividade de Análise feita nos comentários da vídeo-aula.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+08. Gameplay do Pong.
+
+Para simplificar, a "metáfora" é o contexto que seus elementos dão para o jogo,
+a metáfora da gameplay é todo o contexto que todas as categorias oferecem juntas.
+A metáfora da gameplay pode mudar a experiência e todas as suas categorias respectivamente.
+
+O professor recomenda sempre fazer um documento tipo GDD para desenvolver seus jogos.
+
+(ATIVIDADE)
+
+Gameplay:
+- A bola escolhe uma direção aleatória para ir no início da partida
+- A bola faz seu trajeto até o lado direito/esquerdo do campo, quicando no "teto" e no "chão dependendo de seu trajeto até chegar perto das raquetes
+- Cada jogador tem uma raquete de sua posse, o jogador que tiver seu campo ameaçado tera que usar sua raquete para acertar a bola e defender seu gol,
+- Ao falhar o jogador adversário marca um ponto, caso contrário bola inverte sua direção e começa a ir para o campo adversário
+- Se o adversário não conseguir defender você marca um ponto, caso contrário a bola começa a ir em sua direção novamente
+- A cada gol feito a bola volta para o centro da tela, escolhendo um lado aleatório para ir e dar inicio a uma nova rodada
+- As rodadas vão até quem fizer 2 pontos primeiro e ser o vencedor, onde então o jogo irá acabar e a tela principal substituirá a tela de partida, dando a oportunidade de iniciar mais uma partida
+
+Atividade de Análise feita nos comentários da vídeo-aula.	
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+09. Feedback do Pong.
+
+Simples e divertido como qualquer Pong, mas ainda é possível melhorar a experiência do jogo.
+
+(Feedback)
+
+1. Melhorar a pontuação:
+
+- Os números estão pequenos demais, eles poderiam ser maiores.
+
+- A fonte do texto pode ser mudada para uma melhor, essa fonte deixa as letras e números borrados.
+
+2. Anunciar o vencedor:
+
+- O jogo termina muito abruptamente quando um jogador ganha.
+
+- Quando a partida terminar seria uma boa ideia mostrar no centro da tela quem foi o vencedor, o "Jogador 1" ou o "Jogador 2".
+
+3. Som da bola:
+
+- O som que a bola produz quando ela quica é repetitivo demais, seria melhor ter mais variedade para que houvesse mais do que apenas um som.
+
+- Ou apenas fazer o pitch mudar por um valor aleatório dentro de uma range cada vez que ela quicasse, sem exagerar demais.
+
+- (Minha opinião, mas eu prefiro que o audio não seja cortado quando a bola quica enquanto o som já está tocando, ofereceria mais imersão.)
+
+4. Olhos do rosto:
+
+- O rosto no plano de fundo é um detalhe legal, mas os olhos (como objeto separado do rosto) poderiam ser mais ativos com o ambiente.
+
+- Seria interessante se na tela principal os olhos seguissem o cursor do jogador, enquanto na tela de partida os olhos seguissem a bola.
+
+5. Gamefeel:
+
+- Gostei do fato de que apesar dos dois botões serem semelhantes, os highlights entre ambos ao mover o cursor por cima deles são diferentes.
+
+- Além do visual também poderia ter áudios que tocassem tanto ao mover o cursor neles como também ao clicar neles.
+
+- (A questão da fonte também se aplica no texto dos botões e mudar a cor deixaria o texto do botão mais legível).
+
+Atividade Feita nos comentários do jogo na página da Itch.io.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+10.  Processo de Criação do Pong.
+
+Slide de GDD do Pong:
+https://docs.google.com/presentation/d/1IAZSg2ZLafp6PeBxBLnrzOAfCyrdU0bxhicY7PYqs3Y/edit?slide=id.p#slide=id.p
+
+O desafio agora é tentar fazer o projeto sozinho e ir o quão longe eu consigo antes de ficar perdido e ter que assistir as aulas
+
+Desafio Feito.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS ATIVIDADES, CONTINUAÇÃO NA PRÓXIMA NOTA (txt_atividades_02).
+
+

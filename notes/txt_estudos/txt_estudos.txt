@@ -1,0 +1,168 @@
+Essa nota está reservada para escrever quaisquer coisas que eu aprenda ou relembre durante
+as video-aulas que eu ache interessante marcar.
+
+- Relembre que você não precisa usar somente a quantidade de layers necessárias pro seus assets
+( 1 instance, 1 asset, 1 background, etc...), você pode criar quantas layers quiser de qualquer
+tipo e usá-las para separar assets de formas organizadas, layers também afetam profundidade.
+
+- Cada layer pode manter suas grids exclusivas caso queira uma grid específica para as
+instâncias pertencentes aquela layer.
+
+- Grids podem ser modificadas de tamanho e alpha, lembre-se que elas existem PRINCIPALMENTE
+GRID SNAP, grid snap é extremamente útil.
+
+- Você pode mover instâncias/assets de acordo com a grid atual usando as setinhas, isso
+permite organizar sem ter que ficar puxando com o mouse.
+
+- Caso vá usar o mouse você pode segurar ctrl para mover instâncias sem grid snap.
+
+- Para que uma instância tenha colisão após ativar a propriedade "Solid" no objeto da instância,
+será necessário criar um evento de colisão com o que o objeto deve colidir, o outro objeto
+não precisa ser "solid" também e mesmo se o objeto sólido não tiver um evento de colisão com
+outro objeto, mas esse outro objeto tenha um evento de colisão com o objeto sólido, ainda 
+haverá colisão por parte do objeto sólido, mantendo qualquer instância desse objeto voltar
+a sua posição anterior após uma colisão.
+
+-Tudo que estiver em cochetes em uma função é opcional.
+
+Exemplo:
+audio_play_sound(index, priority, loop, [gain], [offset], [pitch], [listener_mask])
+- gain, offset, pitch e listener_mask são opcionais.
+
+- O "priority" no "audio_play_sound" define a prioridade, isso é, a importância
+que certos áudios tem sobre outros, onde o áudio A com prioridade maior que o áudio B
+terá seu áudio ser mais importante para tocar do que o áudio B. Essa prioridade é em ordem
+crescente, indo de 0 para 100 (exemplo: 4 tem prioridade sobre 2, que tem prioridade sobre 1)
+
+- O "offset" faz com que o áudio comece a tocar em um ponto diferente ao invés de pelo início,
+logo em um áudio de 2 segundos eu posso dar um offset de 1 para que o som toque na metade
+do áudio.
+
+- o "I" em "irandom" e "irandom_range" significa "Integer", logo as funções random com "I"
+permitem o retorno de um valor aleatório em Integer, logo, o número aleatório retornado
+NÃO É QUEBRADO.
+
+- O "0" TAMBÉM CONTA, ENTÃO CASO VÁ FAZER ALGO COMO UMA CHANCE DE 1 EM 10 VOCÊ TEM QUE FAZER
+"if (irandom(9) == 1)" ONDE "1" É A CHANCE QUE VOCÊ PRECISA OBTER E 
+"9" É ONDE VOCÊ ESTARIA DEFININDO O LIMITE COMO "10" JÁ QUE O "0" ESTÁ SENDO CONSIDERADO.
+
+- A gente NUNCA pode iniciar uma variável com números. 
+Exemplo: (2jogadores = false) 
+pode ser substituido de forma correta por "(dois_jogadores = false)"
+
+- Eu só coloco chaves em um "if" caso eu vá fazer mais de um comando naquela condição,
+logo se eu for fazer só um comando chaves não são necessárias.
+
+- Isso permite com que eu possa estar escrevendo o comando logo abaixo
+ou até do lado da condição.
+
+- Linha em branco o GameMaker não reconhece, aliás.
+
+- "exit" termina um evento e previne todos os códigos adiante de serem lidos.
+
+-Há dois tipos de referências diretas, a de instância e a de objeto.
+
+-Exemplo de Instância: vspeed = inst_E8B0414_1.vspeed
+
+Vantagens de referência direta: 
+- Permite referências para casos pequenos onde uma variável global
+não é totalmente necessária.
+
+- Você não precisaria fazer várias variáveis globais
+caso queira referenciar várias variáveis de outro objeto
+
+
+-Desvantagens de referência direta: 
+
+- Caso a instância seja outra, referência direta por instância 
+pode causar problemas não intencionados
+
+- Caso não haja uma instância do objeto, ler uma referência direta causa erro,
+tendo que fazer (if instance_exists()) para prevenir esse problema.
+
+- A variável in-built "xstart" salva a posição inicial do X de uma instância,
+  enquanto a variável "ystart" salva a posição inicial do Y dessa instância.
+
+- É possível exportar sprites indo no botão "Image"
+  no editor de sprites e fazendo "export to png".
+
+- Sprites exportadas para PNG terão cada frame um do lado do outro em uma linha horizontal.
+
+- O arquivo também terá um sufixo especial baseado em quantos frames o sprite tem.
+  ("_stripX", sendo X o número correspondente a quantidade de frames)
+
+Exemplo: 
+-Para a sprite de uma bola exportada que tem 5 frames: "spr_bola_strip5"
+
+- Ao importar uma imagem com esse sufixo o GameMaker
+  irá automaticamente separar a imagem em frames.
+
+- (ENTRETANTO STRIP IMAGES AINDA PRECISAM SER IMPORTADAS DE FORMA ESPECIAL,
+  ATRAVÉS DO "Import Strip Image" NO "Image" DO EDITOR DE SPRITES.)
+
+- Logo forçar o sufixo em certas imagens pode nem sempre dar certo.
+
+- É possível mudar o FPS de uma sprite através do inspector
+  após clicar na sprite que quiser mudar o FPS.
+ 
+- Também é possível alterar o "frame" e o "image speed" de instâncias em uma room
+  através do inspector, personalizando frame e speed de forma individual.
+ 
+- ENTRETANTO LEVE EM CONSIDERAÇÃO QUE TANTO PARA CÓDIGO COMO PARA INSPETOR
+  O "IMAGE SPEED" APENAS MULTIPLICA O FPS ATUAL DA SPRITE.
+
+- Exemplo (considerando FPS da sprite como 10) 
+  image speed 0 = fps 0 
+  image speed 1 = fps 10 
+  image speed 2 = fps 20
+
+- Números quebrados também são permitidos.
+
+- Exemplo (considerando FPS da sprite como 10) 
+  image speed 0.5 = fps 5 
+  image speed 1.5 = fps 15
+  
+- Lembre-se que o X e o Y de uma instância é salva no X e o Y onde a origem da sprite
+  (sprite origin) está localizada naquela room.
+  
+- Além disso, ao mudar o sprite origin, há a possibilidade que a instância
+  usando essa sprite irá se mover para um lugar diferente da room.
+  
+- Também é possível mudar a origem da sprite para fora da imagem (fora do canvas),
+  faça dessa informação o que bem quiser.
+  
+- Devido a textos serem desenhados, eles também seguem um padrão "top-left"
+  na hora de ser desenhado, Isso deixa o texto descentralizado mesmo se ele for criado 
+  no X e Y de uma sprite que possui sua sprite origin no "middle-center".
+  
+- Por isso é recomendado usar "draw_set_halign();" e "draw_set_valign();" 
+  caso queira desenhar o texto de forma mais precisa.
+  
+- Caso queira centralizar o texto de forma horizontal: draw_set_halign(fa_center);
+  (Alinhamento horizontal utiliza "center")
+  
+- Caso queira centralizar o texto de forma vertical: draw_set_halign(fa_middle);
+  (Alinhamento vertical utiliza "middle")
+  
+- No "fa_left" o texto é escrito pra direita porque o X,Y vai estar na esquerda.
+  (logo por isso é fa_LEFT)
+
+- No "fa_right" o texto é escrito pra esquerda porque o X,Y vai estar na direita.
+  (logo por isso é fa_RIGHT)
+
+- Também é possível substituir os constantes "fa_" por números, sendo:
+  Esquerda = 0, 
+  Centro = 1  
+  Direita = 2
+  
+- Uma forma bem fácil de centralizar texto é fazer tanto valign e halign serem "1"
+  ao invés de ter que decorar a diferença entre "middle" e "center".
+  
+- SEMPRE QUE VOCÊ USAR UM DRAW SET, VOCÊ PRECISA RESETAR ELE.
+  
+- QUALQUER draw set define globalmente, ou seja, ele define para o jogo todo.
+  
+- Para resetar um valor, você usa o draw set como o valor original.
+  
+- Se você não souber o valor original, você pode usar o "-1" no draw set
+  que por padrão ele volta para o valor original.

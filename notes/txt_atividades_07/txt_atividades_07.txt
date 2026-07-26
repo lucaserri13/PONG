@@ -1,0 +1,157 @@
+61. Atividade - Ajustando a Animação do Botão
+
+É possível mudar o FPS de uma sprite através do inspector
+após clicar na sprite que quiser mudar o FPS.
+
+Também é possível alterar o "frame" e o "image speed" de instâncias em uma room
+através do inspector, personalizando frame e speed de forma individual.
+
+ENTRETANTO LEVE EM CONSIDERAÇÃO QUE TANTO PARA CÓDIGO COMO PARA INSPETOR
+O "IMAGE SPEED" APENAS MULTIPLICA O FPS ATUAL DA SPRITE.
+
+Exemplo (considerando FPS da sprite como 10) 
+image speed 0 = fps 0 
+image speed 1 = fps 10 
+image speed 2 = fps 20
+
+Números quebrados também são permitidos.
+
+Exemplo (considerando FPS da sprite como 10) 
+image speed 0.5 = fps 5 
+image speed 1.5 = fps 15
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+62. Atividade - Escrevendo o Texto no Botão.
+
+Lembre-se que o X e o Y de uma instância é salva no X e o Y onde a origem da sprite
+(sprite origin) está localizada naquela room.
+
+Além disso, ao mudar o sprite origin, há a possibilidade que a instância
+usando essa sprite irá se mover para um lugar diferente da room
+
+Também é possível mudar a origem da sprite para fora da imagem (fora do canvas),
+faça dessa informação o que bem quiser.
+
+Devido a textos serem desenhados, eles também seguem um padrão "top-left"
+na hora de ser desenhado, Isso deixa o texto descentralizado mesmo se ele for criado 
+no X e Y de uma sprite que possui sua sprite origin no "middle-center"
+
+Por isso é recomendado usar "draw_set_halign();" e "draw_set_valign();" 
+caso queira desenhar o texto de forma mais precisa.
+
+Caso queira centralizar o texto de forma horizontal: draw_set_halign(fa_center);
+Alinhamento horizontal utiliza "center"
+
+Caso queira centralizar o texto de forma vertical: draw_set_halign(fa_middle);
+Alinhamento vertical utiliza "middle"
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+63. Alinhando o Texto.
+
+No "fa_left" o texto é escrito pra direita porque o X,Y vai estar na esquerda.
+(logo por isso é fa_LEFT)
+
+No "fa_right" o texto é escrito pra esquerda porque o X,Y vai estar na direita.
+(logo por isso é fa_RIGHT)
+
+Também é possível substituir os constantes "fa_" por números, sendo: 
+Esquerda = 0, 
+Centro = 1  
+Direita = 2
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+64 - Atividade - Alinhando Verticalmente o Texto.
+
+Uma forma bem fácil de centralizar texto é fazer tanto valign e halign serem "1"
+ao invés de ter que decorar a diferença entre "middle" e "center".
+
+SEMPRE QUE VOCÊ USAR UM DRAW SET, VOCÊ PRECISA RESETAR ELE.
+
+QUALQUER draw set define globalmente, ou seja, ele define para o jogo todo.
+
+Para resetar um valor, você usa o draw set como o valor original.
+
+Se você não souber o valor original, você pode usar o "-1" no draw set
+que por padrão ele volta para o valor original.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+65 - Atividade - Efeito do Botão.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+66 - Atividade - Iniciando a Partida.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+67 - Planejando o Botão de Modo de Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+68 - Atividade - Criando o Botão de Modo de Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+69 - Atividade - Exibindo o Texto do Botão.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+70 - Atividade - Trocando o Modo de Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+71 - Polimento de um Jogo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+72 - Atividade - Corrigindo Bugs.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+73 - Atividade - Lidando com o Bug da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+74 - Formas de Evitar o Bug da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+75 - Atividade Final.
+
+Atividade Feita.
+
+
+
+
+

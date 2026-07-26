@@ -1,0 +1,89 @@
+31. Desafio - Iniciando a Bola em uma Direção Aleatória.
+
+Na documentação, ver a parte de "Random Numbers and Values" nos "Number Functions"
+
+- o "I" em "irandom" e "irandom_range" significa "Integer", logo as funções random com "I"
+permitem o retorno de um valor aleatório em Integer, logo o número aleatório retornado
+NÃO É QUEBRADO.
+
+- O "0" TAMBÉM CONTA, ENTÃO CASO VÁ FAZER ALGO COMO UMA CHANCE DE 1 EM 10 VOCÊ TEM QUE FAZER
+"if (irandom(9) == 1)" ONDE "1" É A CHANCE QUE VOCÊ PRECISA OBTER E 
+"9" É ONDE VOCÊ ESTARIA DEFININDO O LIMITE COMO "10" JÁ QUE O "0" ESTÁ SENDO CONSIDERADO.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+32. Desafio - Resolvendo o Bug do Falso Aleatório.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+33. Definindo Direções Desejadas para a Bola.
+
+Em direção (graus) de forma diagonal:
+// 45, 135, 225, 315
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+34. Atividade - Definindo a Direção Inicial da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+35. Atividade - Delay Inicial da Bola.
+
+Atividade Feita.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+36. Iniciando a Inteligencia Artificial.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+37. Atividade - Controlando o Modo do Jogo.
+
+- A gente NUNCA pode iniciar uma variável com números. 
+Exemplo: (2jogadores = false) 
+pode ser substituido de forma correta por "(dois_jogadores = false)"
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+38. Atividade - Definindo Quando Controlar a Raquete.
+
+Eu só coloco chaves em um "if" caso eu vá fazer mais de um comando naquela condição,
+logo se eu for fazer só um comando chaves não são necessárias.
+
+Isso permite com que eu possa estar escrevendo o comando logo abaixo
+ou até do lado da condição.
+
+Linha em branco o GameMaker não reconhece, aliás.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+39. Saindo de Eventos
+
+"exit" termina um evento e previne todos os códigos adiante de serem lidos.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+40. Pensando na Lógica da IA.	
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS ATIVIDADES, CONTINUAÇÃO NA PRÓXIMA NOTA (txt_atividades_05).

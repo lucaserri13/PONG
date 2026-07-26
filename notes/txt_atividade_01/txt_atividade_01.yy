@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"txt_atividade_01",
+  "name":"txt_atividade_01",
+  "parent":{
+    "name":"Atividades",
+    "path":"folders/Notes/Atividades.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

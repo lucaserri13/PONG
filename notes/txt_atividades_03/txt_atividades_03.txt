@@ -1,0 +1,82 @@
+21. Atividade - Impedindo a Raquete de Sair por Baixo.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+22. Atividade - Configurando a Raquete 2.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+23. Atividade - Fazendo a Bola se Mover.
+
+move_bounce_solid()
+- Ver na documentação
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+24. Fazendo a Bola Quicar na Raquete 2.
+
+move_and_collide(true) - O true permite com que cheque uma colisão de forma precisa,
+logo é necessário usar collision mask com tipo "Precise" tanto para o objeto com
+propriedade de quicar como o objeto no qual o objeto está quicando.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+25. Atividade - Fazendo a Bola Quicar na Raquete 1.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+26. Atividade - Impedindo a Bola de Sair pela Vertical.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+27. Atividade - Aumentando a Velocidade da Bola.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+28. Atividade - Fazendo o Som de Quicar Parte 1	
+
+Tudo que estiver em cochetes em uma função é opcional.
+
+audio_play_sound(index, priority, loop, [gain], [offset], [pitch], [listener_mask])
+- gain, offset, pitch e listener_mask são opcionais.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+29. Atividade - Fazendo o Som de Quicar Parte 2	
+
+- O "priority" no "audio_play_sound" define a prioridade, isso é, a importância
+que certos áudios tem sobre outros, onde o áudio A com prioridade maior que o áudio B
+terá seu áudio ser mais importante para tocar do que o áudio B. Essa prioridade é em ordem
+crescente, indo de 0 para 100 (exemplo: 4 tem prioridade sobre 2, que tem prioridade sobre 1)
+
+- O "offset" faz com que o áudio comece a tocar em um ponto diferente ao invés de pelo início,
+logo em um áudio de 2 segundos eu posso dar um offset de 1 para que o som toque na metade
+do áudio.
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+30. Atividade - Fazendo o Som de Quicar Parte 3
+
+Atividade Feita.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS ATIVIDADES, CONTINUAÇÃO NA PRÓXIMA NOTA (txt_atividades_04).

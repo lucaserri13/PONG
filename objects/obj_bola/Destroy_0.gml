@@ -1,0 +1,1 @@
+obj_gamemanager.alarm[0] = 60 * 4;
